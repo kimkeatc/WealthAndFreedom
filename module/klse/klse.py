@@ -56,6 +56,7 @@ class KlseApi:
     def exportScreener(self, ioLogfolder):
         df = self.getScreener()
         df.insert(0, 'Date', ioLogfolder.name)
+        df.insert(0, 'Reference Index', ioLogfolder.ref_index)
         df = df.apply(self.screenerResultPostProcessing, axis=1)
         df.to_excel(self.exportFilepath(basepath=ioLogfolder.path), index=False)
 

@@ -90,6 +90,9 @@ class _Folder(_File):
             os.mkdir(self.path, mode)
             os.umask(mask)
 
+    def addAttr(self, name, value):
+        setattr(self, name, value)
+
 
 class MyProject(_Folder):
 

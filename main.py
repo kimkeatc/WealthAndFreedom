@@ -45,10 +45,13 @@ class DateTracker:
 
 
 def _data_collection(ioLogfolder):
-    # Screening klse
-    klse.KlseApi().exportScreenerIfNotExists(ioLogfolder)
-    pass
 
+    logging.info('Getting KLSE screener...')
+    klse.KlseApi().exportScreenerIfNotExists(ioLogfolder)
+
+    logging.info('Getting Bursa screener...')
+    bursa.BursaApi().exportScreenerIfNotExists(ioLogfolder)
+    
 
 def _data_update():
     pass
@@ -66,6 +69,8 @@ def main():
 
     logFolder = Utility._Folder(Utility.MyProject().logsFolder.path, _date.date)
     logFolder.create()
+    logFolder.addAttr('ref_index', _date.ref_index)
+    logFolder.addAttr('df_index', _date.df_index)
 
     # Collecting date
     _data_collection(logFolder)
