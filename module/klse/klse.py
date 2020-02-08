@@ -23,6 +23,9 @@ SCREENER_API_URL = 'https://www.klsescreener.com/v2/screener/quote_results'
 STOCK_CHART_URL = 'https://www.klsescreener.com/v2/charting/chart/'
 STOCK_CODE_CHART_URL = STOCK_CHART_URL + '{stockcode}'
 
+STOCK_API_HISTORY_URL = 'https://www.klsescreener.com/v2/trading_view/history?symbol={stockcode}&resolution={start_time}&from=%i&to={end_time}'
+STOCK_API_REMARK_URL = 'https://www.klsescreener.com/v2/trading_view/marks?symbol={stockcode}&from={start_time}&to={end_time}&resolution=D'
+
 
 class KlseApi:
 

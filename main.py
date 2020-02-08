@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
 
-from datetime import datetime, timedelta
+from datetime import datetime
 import logging
 import sys
 
-from module.fiavest_xt import fiavest_xt
 from module.bursa import bursa
 from module.klse import klse
 from module import namespace
+from module import download
 from module import Utility
 
 Utility.MyProject().system_path_initialize()
 Utility.Logger().addStreamHandler()
 
 import pandas
-import numpy
 
 __module__ = sys.modules[__name__].__file__
 
@@ -51,30 +50,26 @@ def _data_collection(ioLogfolder):
 
     logging.info('Getting Bursa screener...')
     bursa.BursaApi().exportScreenerIfNotExists(ioLogfolder)
-    
 
-def _data_update():
-    pass
-
-
-def _data_analysis():
-    pass
+    logging.info('Download stocks history...')
+    download.main(ioLogfolder.path)
 
 
 def main():
-    
+
     logging.info('+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+')
 
     _date = DateTracker()
+    logging.info(f'Date: {_date.date}')
 
     logFolder = Utility._Folder(Utility.MyProject().logsFolder.path, _date.date)
     logFolder.create()
     logFolder.addAttr('ref_index', _date.ref_index)
     logFolder.addAttr('df_index', _date.df_index)
 
-    # Collecting date
+    # Collecting data
     _data_collection(logFolder)
-    
+
     return 0
 
 

@@ -106,6 +106,7 @@ class MyProject(_Folder):
         self.libFolder = _Folder(self.path, 'Lib')
         self.logsFolder = _Folder(self.path, 'logs')
         self.moduleFolder = _Folder(self.path, 'module')
+        self.sqlFolder = _Folder(self.path, 'sql')
         self.webdriverFolder = _Folder(self.path, 'webdriver')
 
         # Secondary folders...
