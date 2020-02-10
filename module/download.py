@@ -53,7 +53,7 @@ def getWebdriver():
         _options = Options()
         _options.add_experimental_option('w3c', False)
         _options.add_argument("--headless")
-        
+
         driver = webdriver.Chrome(Utility.MyProject().chromeWebdriver.path,
                                   desired_capabilities=_capabilities,
                                   options=_options)
@@ -64,6 +64,8 @@ def getPerformanceNetworkURL(pkg):
     args = pkg.split(';')
     filepath, url = args[0], args[1]
     if exists(filepath):
+        return
+    if exists(filepath.replace('.txt', '.xlsx')):
         return
 
     driver = getWebdriver()
@@ -93,10 +95,11 @@ def getHistoricalData(filepath):
     df = pandas.DataFrame(r.json()['historical_data']['data'])
     df.insert(0, 'timestamp', df['date'].div(1000).astype(int))
     df['date'] = pandas.to_datetime(df['timestamp'], unit='s').dt.strftime('%Y-%m-%d')
+    df = df.tail(10)
 
     df.to_excel(dst_filepath, index=False)
     os.remove(filepath)
-    
+
 
 def main(basefolder):
     logging.info('Loading dataframe...')
@@ -112,15 +115,15 @@ def main(basefolder):
     logging.info('Getting performance urls...')
     ThreadPool(7).map(getPerformanceNetworkURL, df['package'])
     os.system('TASKKILL /IM chromedriver.exe')
-    if len(os.listdir(tempFolder.path)) != len(df['package']):
+
+    listdir = os.listdir(tempFolder.path)
+    if len(listdir) != len(df['package']):
         logging.error('Package data not complete...')
         return 0
 
     logging.info('Loading performance urls...')
     ThreadPool(7).map(getHistoricalData, df['temp_filepath'])
-    
+
+
 if __name__ == '__main__':
     pass
-    #basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-02-07'
-    #main(basefolder)
-    
