@@ -2,7 +2,7 @@ import Utility
 import pandas
 import os
 
-basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-02-10\temp'
+basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-02-11\temp'
 
 df = pandas.DataFrame()
 for index, filename in enumerate(os.listdir(basefolder)):

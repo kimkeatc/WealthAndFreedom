@@ -25,6 +25,10 @@ for line in content:
         print('ERROR !!!!!!!!')
         break
     _df = _df[_df['date'] >= date]
+    _df['vol'] = _df['vol'] / 100
+    _df['vol'] = _df['vol'].astype(int)
+    _df.drop(columns=['timestamp'])
+    _df.reset_index(drop=True, inplace=True)
     homework_df = pandas.concat([homework_df, _df])
     print(homework_df)
 homework_df.T.to_excel(r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\module\monitor.xlsx', index=False)
