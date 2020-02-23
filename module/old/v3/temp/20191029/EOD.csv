@@ -1,0 +1,6 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,EVERGREEN FIBREBOARD BERHAD,'5101,0.26,0.265,0.315,0.265,0.315,121126,MarketGapUp,0.055,9.999999999999998,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5101
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,GENTING MALAYSIA BERHAD,'4715,3.1,3.1,3.200,3.100,3.18,165535,MarketNoChange,0.08,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=4715
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,KHEE SAN BERHAD,'6203,0.235,0.24,0.285,0.240,0.28,98492,MarketGapUp,0.045,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=6203
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,MIECO CHIPBOARD BERHAD,'5001,0.285,0.285,0.325,0.285,0.325,125562,MarketNoChange,0.04,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5001
+ACE MARKET,TECHNOLOGY,IFCA MSC BERHAD,'0023,0.44,0.45,0.500,0.445,0.495,877312,MarketGapUp,0.055,8.999999999999996,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0023

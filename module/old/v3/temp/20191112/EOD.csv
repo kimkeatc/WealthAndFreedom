@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,ENERGY,PERDANA PETROLEUM BERHAD,'7108,0.385,0.385,0.435,0.385,0.43,534785,MarketNoChange,0.045,8.999999999999996,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7108
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,PETRONAS CHEMICALS GROUP BERHAD,'5183,7.71,7.7,7.800,7.630,7.8,45773,MarketGapDown,0.09,9.999999999999963,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5183
+MAIN MARKET,PLANTATION,SIME DARBY PLANTATION BERHAD,'5285,4.98,5.0,5.180,4.990,5.15,142183,MarketGapUp,0.17,15.000000000000036,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5285

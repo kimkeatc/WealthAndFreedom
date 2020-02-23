@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,HEALTH CARE,HARTALEGA HOLDINGS BERHAD,'5168,5.26,5.25,5.410,5.210,5.37,57625,MarketGapDown,0.11,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5168
+MAIN MARKET,PROPERTY,UEM SUNRISE BERHAD,'5148,0.685,0.695,0.770,0.695,0.755,200026,MarketGapUp,0.07,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5148
+MAIN MARKET,CONSTRUCTION,WCE HOLDINGS BERHAD,'3565,0.305,0.305,0.355,0.300,0.35,213636,MarketNoChange,0.045,8.999999999999996,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=3565

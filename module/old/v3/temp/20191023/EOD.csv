@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,PROPERTY,EWEIN BERHAD,'7249,0.63,0.635,0.675,0.625,0.675,79728,MarketGapUp,0.045,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7249
+MAIN MARKET,PLANTATION,SIME DARBY PLANTATION BERHAD,'5285,4.75,4.7,4.810,4.660,4.8,45708,MarketGapDown,0.05,9.999999999999963,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5285
+MAIN MARKET,TELECOMMUNICATIONS & MEDIA,TELEKOM MALAYSIA BERHAD,'4863,3.89,3.83,3.930,3.830,3.92,59974,MarketGapDown,0.03,8.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=4863

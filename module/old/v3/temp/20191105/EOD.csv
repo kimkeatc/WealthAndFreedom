@@ -1,0 +1,6 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,FINANCIAL SERVICES,CIMB GROUP HOLDINGS BERHAD,'1023,5.25,5.25,5.330,5.230,5.33,174613,MarketNoChange,0.08,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1023
+MAIN MARKET,PROPERTY,EASTERN & ORIENTAL BERHAD,'3417,0.65,0.65,0.705,0.645,0.705,75288,MarketNoChange,0.055,10.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=3417
+MAIN MARKET,TECHNOLOGY,MMS VENTURES BERHAD,'0113,0.83,0.835,0.890,0.835,0.885,50069,MarketGapUp,0.055,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0113
+MAIN MARKET,ENERGY,SERBA DINAMIK HOLDINGS BERHAD,'5279,4.18,4.2,4.390,4.200,4.29,106470,MarketGapUp,0.11,8.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5279
+ACE MARKET,INDUSTRIAL PRODUCTS & SERVICES,MTAG GROUP BERHAD,'0213,0.51,0.515,0.560,0.505,0.555,561350,MarketGapUp,0.045,8.000000000000009,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0213

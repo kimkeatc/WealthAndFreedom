@@ -1,0 +1,7 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,CAHYA MATA SARAWAK BERHAD,'2852,2.35,2.37,2.500,2.350,2.49,40778,MarketGapUp,0.14,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=2852
+MAIN MARKET,PROPERTY,MCT BERHAD,'5182,0.24,0.245,0.310,0.240,0.3,210396,MarketGapUp,0.06,10.999999999999998,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5182
+MAIN MARKET,PLANTATION,PINEHILL PACIFIC BERHAD,'1902,0.37,0.38,0.455,0.380,0.445,61061,MarketGapUp,0.075,13.0,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1902
+MAIN MARKET,FINANCIAL SERVICES,PUBLIC BANK BERHAD,'1295,19.5,19.54,19.840,19.500,19.74,42057,MarketGapUp,0.24,9.999999999999963,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1295
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,SALUTICA BERHAD,'0183,0.7,0.69,0.745,0.675,0.73,47503,MarketGapDown,0.03,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0183
+ACE MARKET,INDUSTRIAL PRODUCTS & SERVICES,SOLARVEST HOLDINGS BERHAD,'0215,0.755,0.77,0.850,0.760,0.82,1349623,MarketGapUp,0.065,9.999999999999988,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0215

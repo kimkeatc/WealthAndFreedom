@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,TECHNOLOGY,PENTAMASTER CORPORATION BERHAD,'7160,4.69,3.99,4.560,3.740,4.48,1369653,MarketGapDown,-0.21,49.00000000000002,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7160
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,SARAWAK CABLE BERHAD,'5170,0.24,0.24,0.375,0.240,0.32,147024,MarketNoChange,0.08,16.000000000000004,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5170
+MAIN MARKET,CONSTRUCTION,ZECON BERHAD,'7028,0.34,0.365,0.620,0.360,0.545,305257,MarketGapUp,0.205,36.00000000000001,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7028

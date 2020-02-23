@@ -1,0 +1,7 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,CONSTRUCTION,AME ELITE CONSORTIUM BERHAD,'5293,1.67,1.67,1.780,1.670,1.77,116486,MarketNoChange,0.1,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5293
+MAIN MARKET,HEALTH CARE,HARTALEGA HOLDINGS BERHAD,'5168,5.37,5.4,5.630,5.400,5.54,89892,MarketGapUp,0.17,13.999999999999966,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5168
+MAIN MARKET,PLANTATION,KUALA LUMPUR KEPONG BERHAD,'2445,21.7,21.76,22.040,21.740,21.98,44140,MarketGapUp,0.28,10.999999999999943,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=2445
+MAIN MARKET,PROPERTY,S P SETIA BERHAD,'8664,1.25,1.26,1.350,1.250,1.35,126400,MarketGapUp,0.1,9.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=8664
+MAIN MARKET,HEALTH CARE,TOP GLOVE CORPORATION BHD,'7113,4.4,4.41,4.550,4.410,4.52,49207,MarketGapUp,0.12,10.999999999999943,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7113
+ACE MARKET,INDUSTRIAL PRODUCTS & SERVICES,TECHFAST HOLDINGS BERHAD,'0084,0.39,0.39,0.445,0.390,0.445,86622,MarketNoChange,0.055,10.999999999999998,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0084

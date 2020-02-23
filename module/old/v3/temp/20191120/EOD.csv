@@ -1,0 +1,5 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,ENERGY,DAYANG ENTERPRISE HOLDINGS BERHAD,'5141,1.87,1.9,2.050,1.860,2.05,105457,MarketGapUp,0.18,14.999999999999993,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5141
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,DUFU TECHNOLOGY CORP. BERHAD,'7233,2.86,2.87,3.020,2.870,2.97,45536,MarketGapUp,0.11,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7233
+MAIN MARKET,PLANTATION,FGV HOLDINGS BERHAD,'5222,1.15,1.15,1.260,1.150,1.25,212571,MarketNoChange,0.1,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5222
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,GUAN CHONG BERHAD,'5102,2.59,2.6,2.890,2.600,2.87,77907,MarketGapUp,0.28,27.0,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5102

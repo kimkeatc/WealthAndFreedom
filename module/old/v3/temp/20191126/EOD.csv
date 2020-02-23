@@ -1,0 +1,6 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,REAL ESTATE INVESTMENT TRUSTS,IGB REAL ESTATE INVESTMENT TRUST,'5227,1.920,1.92,2.010,1.910,2.01,73864,MarketNoChange,0.09,8.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5227
+MAIN MARKET,TELECOMMUNICATIONS & MEDIA,MAXIS BERHAD,'6012,5.250,5.28,5.360,5.280,5.36,68387,MarketGapUp,0.11,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=6012
+MAIN MARKET,TRANSPORTATION & LOGISTICS,MISC BERHAD,'3816,8.240,8.17,8.330,8.170,8.25,91932,MarketGapDown,0.01,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=3816
+MAIN MARKET,TELECOMMUNICATIONS & MEDIA,TELEKOM MALAYSIA BERHAD,'4863,3.720,3.7,3.990,3.700,3.88,260860,MarketGapDown,0.16,17.999999999999968,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=4863
+ACE MARKET,INDUSTRIAL PRODUCTS & SERVICES,MCLEAN TECHNOLOGIES BERHAD,'0167,0.210,0.215,0.280,0.215,0.27,286048,MarketGapUp,0.06,11.000000000000005,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0167

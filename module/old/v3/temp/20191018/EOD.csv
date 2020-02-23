@@ -1,0 +1,7 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,FINANCIAL SERVICES,ALLIANCE BANK MALAYSIA BERHAD,'2488,2.86,2.86,2.94,2.86,2.94,77988,MarketNoChange,0.08,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=2488
+MAIN MARKET,FINANCIAL SERVICES,AMMB HOLDINGS BERHAD,'1015,3.95,3.9,4.02,3.88,4.02,40777,MarketGapDown,0.07,11.999999999999964,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1015
+MAIN MARKET,TECHNOLOGY,FRONTKEN CORPORATION BERHAD,'0128,1.8,1.81,1.9,1.81,1.9,88639,MarketGapUp,0.1,8.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0128
+MAIN MARKET,TRANSPORTATION & LOGISTICS,MALAYSIA AIRPORTS HOLDINGS BERHAD,'5014,8.04,7.98,8.24,7.58,8.13,75172,MarketGapDown,0.09,15.000000000000036,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5014
+MAIN MARKET,FINANCIAL SERVICES,MALAYSIA BUILDING SOCIETY BERHAD,'1171,0.84,0.84,0.89,0.84,0.89,164975,MarketNoChange,0.05,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1171
+ACE MARKET,TECHNOLOGY,IFCA MSC BERHAD,'0023,0.305,0.315,0.37,0.31,0.36,482591,MarketGapUp,0.055,8.999999999999996,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0023

@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,FINANCIAL SERVICES,CIMB GROUP HOLDINGS BERHAD,'1023,5.300,5.3,5.400,5.280,5.4,134575,MarketNoChange,0.1,10.000000000000053,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1023
+MAIN MARKET,PROPERTY,ECO WORLD INTERNATIONAL BERHAD,'5283,0.750,0.765,0.835,0.765,0.81,46299,MarketGapUp,0.06,9.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5283
+MAIN MARKET,FINANCIAL SERVICES,MALAYAN BANKING BERHAD,'1155,8.750,8.75,8.840,8.720,8.83,119326,MarketNoChange,0.08,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1155

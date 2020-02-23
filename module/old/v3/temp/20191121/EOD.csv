@@ -1,0 +1,5 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,PROPERTY,ISKANDAR WATERFRONT CITY BERHAD,'1589,0.905,0.905,0.965,0.900,0.95,553688,MarketNoChange,0.045,8.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=1589
+MAIN MARKET,PLANTATION,TH PLANTATIONS BERHAD,'5112,0.345,0.345,0.390,0.345,0.385,42712,MarketNoChange,0.04,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5112
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,THONG GUAN INDUSTRIES BERHAD,'7034,3.15,3.3,3.470,3.290,3.42,40559,MarketGapUp,0.27,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7034
+ACE MARKET,INDUSTRIAL PRODUCTS & SERVICES,MCLEAN TECHNOLOGIES BERHAD,'0167,0.22,0.225,0.270,0.225,0.27,209948,MarketGapUp,0.05,9.000000000000002,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0167

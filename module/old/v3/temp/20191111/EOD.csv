@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,SEACERA GROUP BERHAD,'7073,0.33,0.33,0.380,0.330,0.38,249605,MarketNoChange,0.05,9.999999999999998,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7073
+MAIN MARKET,PROPERTY,SIME DARBY PROPERTY BERHAD,'5288,0.735,0.74,0.800,0.735,0.8,209866,MarketGapUp,0.065,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5288
+MAIN MARKET,TECHNOLOGY,VSTECS BERHAD,'5162,1.25,1.27,1.410,1.270,1.39,51864,MarketGapUp,0.14,11.999999999999988,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5162

@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,PETRONAS CHEMICALS GROUP BERHAD,'5183,7.01,7.03,7.150,6.990,7.11,143634,MarketGapUp,0.1,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5183
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,PRG HOLDINGS BERHAD,'7168,0.575,0.58,0.705,0.570,0.69,46137,MarketGapUp,0.115,22.0,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7168
+MAIN MARKET,PLANTATION,TH PLANTATIONS BERHAD,'5112,0.385,0.385,0.475,0.370,0.46,48579,MarketNoChange,0.075,15.000000000000002,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5112

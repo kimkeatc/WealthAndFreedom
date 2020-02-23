@@ -1,0 +1,5 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,PROPERTY,DAMANSARA REALTY BHD,'3484,0.425,0.43,0.505,0.430,0.5,56471,MarketGapUp,0.075,14.000000000000002,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=3484
+MAIN MARKET,CONSTRUCTION,JAKS RESOURCES BERHAD,'4723,0.94,0.94,1.000,0.940,1.0,344829,MarketNoChange,0.06,12.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=4723
+MAIN MARKET,CONSTRUCTION,MUDAJAYA GROUP BERHAD,'5085,0.21,0.225,0.350,0.215,0.34,771516,MarketGapUp,0.13,23.000000000000004,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5085
+ACE MARKET,TELECOMMUNICATIONS & MEDIA,BINASAT COMMUNICATIONS BERHAD,'0195,0.37,0.37,0.425,0.365,0.415,248116,MarketNoChange,0.045,8.999999999999996,,-,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0195

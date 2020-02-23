@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,PROPERTY,ECO WORLD INTERNATIONAL BERHAD,'5283,0.825,0.825,0.945,0.825,0.91,86885,MarketNoChange,0.085,17.000000000000018,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5283
+MAIN MARKET,PROPERTY,MCT BERHAD,'5182,0.22,0.22,0.280,0.220,0.265,176180,MarketNoChange,0.045,9.000000000000002,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5182
+MAIN MARKET,PLANTATION,TH PLANTATIONS BERHAD,'5112,0.46,0.465,0.575,0.465,0.52,65279,MarketGapUp,0.06,10.999999999999998,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5112

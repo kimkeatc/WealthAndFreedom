@@ -1,0 +1,6 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,ENERGY,DAYANG ENTERPRISE HOLDINGS BERHAD,'5141,1.9,1.89,1.980,1.890,1.97,88242,MarketGapDown,0.07,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5141
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,GENTING BERHAD,'3182,6.02,6.02,6.180,5.980,6.17,63631,MarketNoChange,0.15,15.000000000000036,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=3182
+MAIN MARKET,CONSUMER PRODUCTS & SERVICES,PROLEXUS BERHAD,'8966,0.905,0.915,0.985,0.915,0.985,51127,MarketGapUp,0.08,13.999999999999991,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=8966
+MAIN MARKET,TECHNOLOGY,UWC BERHAD,'5292,2.39,2.39,2.550,2.370,2.54,45062,MarketNoChange,0.15,14.999999999999993,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=5292
+MAIN MARKET,ENERGY,UZMA BERHAD,'7250,0.975,0.975,1.030,0.975,1.03,178081,MarketNoChange,0.055,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=7250

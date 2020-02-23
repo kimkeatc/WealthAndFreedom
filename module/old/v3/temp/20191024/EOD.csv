@@ -1,0 +1,4 @@
+Market,Sector,Company,Code,LACP,Open,High,Low,Close,Volume,MarketStatus,Change,TickSize,TickSizeRemark,Remark,BursaURL
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,CAHYA MATA SARAWAK BERHAD,'2852,2.36,2.36,2.520,2.360,2.44,284303,MarketNoChange,0.08,8.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=2852
+MAIN MARKET,TECHNOLOGY,NOTION VTEC BERHAD,'0083,0.745,0.745,0.820,0.740,0.815,111996,MarketNoChange,0.07,13.999999999999991,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0083
+MAIN MARKET,INDUSTRIAL PRODUCTS & SERVICES,SCICOM (MSC) BERHAD,'0099,0.955,0.955,1.020,0.955,1.01,165382,MarketNoChange,0.055,10.000000000000009,,s,http://www.bursamalaysia.com/market/listed-companies/list-of-companies/plc-profile.html?stock_code=0099
