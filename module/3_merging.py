@@ -1,16 +1,19 @@
+from os.path import abspath, dirname, exists, join
 import Utility
 import pandas
 import os
 
-src_basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-03-16\temp'
-dst_basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\data'
+src_basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-17', 'temp')
+dst_basefolder = join(abspath(join(dirname(__file__), '..')), 'data')
+# src_basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-03-17\temp'
+# dst_basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\data'
 
 for filename in os.listdir(src_basefolder):
     print(filename)
-    src_filepath = os.path.join(src_basefolder, filename)
-    dst_filepath = os.path.join(dst_basefolder, filename)
+    src_filepath = join(src_basefolder, filename)
+    dst_filepath = join(dst_basefolder, filename)
 
-    if os.path.exists(dst_filepath):
+    if exists(dst_filepath):
         src_df = pandas.read_excel(src_filepath, converters={'id': str})
         dst_df = pandas.read_excel(dst_filepath, converters={'id': str})
 
