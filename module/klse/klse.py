@@ -7,8 +7,8 @@ _MODULE_FOLDER = abspath(join(dirname(__file__), '..'))
 if _MODULE_FOLDER not in sys.path:
     sys.path.append(_MODULE_FOLDER)
 
-import Utility
-Utility.MyProject().system_path_initialize()
+import utility
+utility.MyProject().system_path_initialize()
 
 import requests
 import pandas
@@ -68,7 +68,7 @@ class KlseApi:
             self.exportScreener(ioLogfolder)
 
     def exportFilepath(self, basepath='', filename='klse_screener.xlsx'):
-        return Utility._File(basepath, filename).path
+        return utility._File(basepath, filename).path
 
 
 if __name__ == '__main__':

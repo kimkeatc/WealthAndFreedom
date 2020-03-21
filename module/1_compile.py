@@ -1,10 +1,9 @@
 from os.path import abspath, dirname, join
-import Utility
+import utility
 import pandas
 import os
 
 basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-20', 'temp')
-# basefolder = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\logs\2020-03-17\temp'
 
 df = pandas.DataFrame()
 for index, filename in enumerate(os.listdir(basefolder)):

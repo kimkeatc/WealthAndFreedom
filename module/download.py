@@ -22,8 +22,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import namespace
-import Utility
-Utility.MyProject().system_path_initialize()
+import utility
+utility.MyProject().system_path_initialize()
 threadLocal = threading.local()
 
 import requests
@@ -54,7 +54,7 @@ def getWebdriver():
         _options.add_experimental_option('w3c', False)
         _options.add_argument("--headless")
 
-        driver = webdriver.Chrome(Utility.MyProject().chromeWebdriver.path,
+        driver = webdriver.Chrome(utility.MyProject().chromeWebdriver.path,
                                   desired_capabilities=_capabilities,
                                   options=_options)
         setattr(threadLocal, 'driver', driver)
@@ -106,7 +106,7 @@ def main(basefolder):
     filepath = bursa.BursaApi().exportFilepath(basefolder)
     df = loadDataFrame(filepath)
 
-    tempFolder = Utility._Folder(basefolder, 'temp')
+    tempFolder = utility._Folder(basefolder, 'temp')
     tempFolder.create()
 
     df['temp_filepath'] = df['Code'].apply(lambda c: os.path.join(tempFolder.path, c + '.txt'))

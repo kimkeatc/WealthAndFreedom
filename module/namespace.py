@@ -11,7 +11,3 @@ MAIN_MARKET = 'Main Market'
 STRUCTURED_WARRANTS = 'Structured Warrants'
 ETF = 'ETF'
 BOND = 'Bond'
-
-
-if __name__ == '__main__':
-    pass

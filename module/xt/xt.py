@@ -7,8 +7,8 @@ _MODULE_FOLDER = abspath(join(dirname(__file__), '..'))
 if _MODULE_FOLDER not in sys.path:
     sys.path.append(_MODULE_FOLDER)
 
-import Utility
-Utility.MyProject().system_path_initialize()
+import utility
+utility.MyProject().system_path_initialize()
 
 import pandas
 
@@ -71,7 +71,7 @@ def process(basepath):
         
 
 def main():
-    logsfolder = Utility.MyProject().logsFolder
+    logsfolder = utility.MyProject().logsFolder
     for folder in logsfolder.listdir()[-1:]:
         basepath = join(logsfolder.path, folder)
         process(basepath)

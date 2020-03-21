@@ -1,5 +1,5 @@
 from os.path import abspath, dirname, join
-import Utility
+import utility
 import pandas
 
 src_basefolderpath = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-20', 'daily.xlsx')

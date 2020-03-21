@@ -8,10 +8,10 @@ from module.bursa import bursa
 from module.klse import klse
 from module import namespace
 from module import download
-from module import Utility
+from module import utility
 
-Utility.MyProject().system_path_initialize()
-Utility.Logger().addStreamHandler()
+utility.MyProject().system_path_initialize()
+utility.Logger().addStreamHandler()
 
 import pandas
 
@@ -29,7 +29,7 @@ class DateTracker:
         self.setDate()
 
     def configurationFile(self):
-        return Utility.MyProject().configurationFile
+        return utility.MyProject().configurationFile
 
     def getDate(self):
         df = self.df[self.df['Date'] <= datetime.now().strftime('%Y-%m-%d')]
@@ -62,7 +62,7 @@ def main():
     _date = DateTracker()
     logging.info(f'Date: {_date.date}')
 
-    logFolder = Utility._Folder(Utility.MyProject().logsFolder.path, _date.date)
+    logFolder = utility._Folder(utility.MyProject().logsFolder.path, _date.date)
     logFolder.create()
     logFolder.addAttr('ref_index', _date.ref_index)
     logFolder.addAttr('df_index', _date.df_index)

@@ -11,8 +11,8 @@ if _MODULE_FOLDER not in sys.path:
     sys.path.append(_MODULE_FOLDER)
 
 import namespace
-import Utility
-Utility.MyProject().system_path_initialize()
+import utility
+utility.MyProject().system_path_initialize()
 
 import requests
 import pandas
@@ -110,10 +110,10 @@ class BursaApi:
 
     def exportMarketFilepath(self, market, basepath=''):
         filename = f'{market}.xlsx'
-        return Utility._File(basepath, filename).path
+        return utility._File(basepath, filename).path
 
     def exportFilepath(self, basepath='', filename='bursa_screener.xlsx'):
-        return Utility._File(basepath, filename).path
+        return utility._File(basepath, filename).path
 
 
 if __name__ == '__main__':
