@@ -3,7 +3,7 @@ import utility
 import pandas
 import os
 
-basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-20', 'temp')
+basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-23', 'temp')
 
 df = pandas.DataFrame()
 for index, filename in enumerate(os.listdir(basefolder)):
@@ -12,13 +12,13 @@ for index, filename in enumerate(os.listdir(basefolder)):
     _df = pandas.read_excel(filepath, converters={'id': str})
     df = pandas.concat([df, _df], sort=False)
 
-dst_basefolder = Utility.MyProject().logsFolder.path
+dst_basefolder = utility.MyProject().logsFolder.path
 for d in df['date'].unique():
     print(d)
-    f = Utility._Folder(dst_basefolder, d)
+    f = utility._Folder(dst_basefolder, d)
     f.create()
 
-    h = Utility._File(f.path, 'daily.xlsx')
+    h = utility._File(f.path, 'daily.xlsx')
     if os.path.exists(h.path):
         continue
     _df = df[df['date'].isin([d])]
