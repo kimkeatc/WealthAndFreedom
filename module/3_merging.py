@@ -3,7 +3,7 @@ import utility
 import pandas
 import os
 
-src_basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-24', 'temp')
+src_basefolder = join(abspath(join(dirname(__file__), '..')), 'logs', '2020-03-25', 'temp')
 dst_basefolder = join(abspath(join(dirname(__file__), '..')), 'data')
 
 for filename in os.listdir(src_basefolder):
