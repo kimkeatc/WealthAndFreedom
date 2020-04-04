@@ -3,7 +3,7 @@ import utility
 import pandas
 
 src_basefolderpath = join(abspath(join(dirname(__file__), '..')), 'logs',
-                          '2020-04-02', 'daily.xlsx')
+                          '2020-04-03', 'daily.xlsx')
 dst_basefolderpath = join(abspath(join(dirname(__file__), '..')), 'data')
 
 with open(join(dirname(__file__), 'monitor.txt'), 'r') as f:
