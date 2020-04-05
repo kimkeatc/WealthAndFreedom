@@ -9,7 +9,8 @@ pandas.set_option('display.width', 1000)
 proxyDict = {'http': 'proxy.png.intel.com:911',
              'https': 'proxy.png.intel.com:911'}
 
-r = requests.get('https://www.klsescreener.com/v2/screener/quote_results', proxies=proxyDict)
+#r = requests.get('https://www.klsescreener.com/v2/screener/quote_results', proxies=proxyDict)
+r = requests.get('https://www.klsescreener.com/v2/screener/quote_results')
 df = pandas.read_html(r.text)[0]
 
 data_folderpath = join(dirname(__file__), 'data')
@@ -19,8 +20,13 @@ for stockcode in df['Code'].to_list():
         print(stockcode)
         continue
     url = f'https://www.klsescreener.com/v2/trading_view/history?symbol={stockcode}&resolution=D&from=1238428800&to=1583494876'
-    r = requests.get(url, proxies=proxyDict)
-    t = r.json()['t']
+    url = f'https://www.klsescreener.com/v2/trading_view/history?symbol={stockcode}&resolution=D&from=585158400&to=1239062400'
+    # r = requests.get(url, proxies=proxyDict)
+    r = requests.get(url)
+    try:
+        t = r.json()['t']
+    except:
+        continue
     c = r.json()['c']
     o = r.json()['o']
     h = r.json()['h']

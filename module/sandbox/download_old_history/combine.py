@@ -1,7 +1,7 @@
 import pandas
 import os
 
-src = r'C:\Users\kimke\Desktop\draft\data'
+src = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\module\sandbox\download_old_history\data'
 dst = r'C:\Users\kimke\OneDrive\Documents\investment and trading\stocks and equity\sandbox\WealthAndFreedom\data'
 
 for index, filename in enumerate(os.listdir(src)):
