@@ -115,7 +115,7 @@ class MyProject(_Folder):
 
         # Files and application...
         self.configurationFile = _File(self.binFolder.path, 'configuration.xlsx')
-        self.chromeWebdriver = _File(join(self.chromeWebdriverFolder.path, '79.0.3945.36'), 'chromedriver.exe')
+        self.chromeWebdriver = _File(join(self.chromeWebdriverFolder.path, '80.0.3987.106'), 'chromedriver.exe')
 
         self.system_path_initialize()
 
