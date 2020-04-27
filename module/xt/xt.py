@@ -35,7 +35,7 @@ def getDirectionScore(direction, score):
         return 0
 
 def get30sen(_open, _close, score):
-    if float(_open) >= 0.3:
+    if float(_open) >= 0.27:
         return score
     else:
         return 0

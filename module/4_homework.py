@@ -3,7 +3,7 @@ import utility
 import pandas
 
 src_basefolderpath = join(abspath(join(dirname(__file__), '..')), 'logs',
-                          '2020-04-23', 'daily.xlsx')
+                          '2020-04-27', 'daily.xlsx')
 dst_basefolderpath = join(abspath(join(dirname(__file__), '..')), 'data')
 
 with open(join(dirname(__file__), 'monitor.txt'), 'r') as f:
@@ -16,13 +16,12 @@ homework_df = pandas.DataFrame()
 for line in content:
     line = line.replace('\n', '')
     date, stockname = line.split(',')
+    print('Reading %s...' % stockname)
     series = df[df['name'] == stockname]
     filename = series['id'].values[0] + '.xlsx'
     filepath = join(dst_basefolderpath, filename)
     _df = pandas.read_excel(filepath, converters={'id': str})
-    if _df['name'][0] == stockname:
-        print('Reading %s...' % stockname)
-    else:
+    if _df['name'][0] != stockname:
         print('ERROR !!!!!!!!')
         break
     _df = _df[_df['date'] >= date]
@@ -31,7 +30,6 @@ for line in content:
     _df.drop(columns=['timestamp'])
     _df.reset_index(drop=True, inplace=True)
     homework_df = pandas.concat([homework_df, _df])
-    print(homework_df)
 
 homework_df.T.to_excel(join(dirname(__file__), 'monitor.xlsx'), index=False)
 print('done')
