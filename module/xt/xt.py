@@ -42,6 +42,10 @@ def get30sen(_open, _close, score):
         
     
 def process(basepath):
+
+    pillar_minimum_percentage = 6
+    pillar_maximum_percentage = 20
+    
     print('Processing %s' % basepath)
     src_filepath = join(basepath, 'daily.xlsx')
     dst_filepath = join(basepath, 'xt.xlsx')
@@ -58,7 +62,7 @@ def process(basepath):
     df['upper_shadow'] = ((df['high'] - df['close'])/(df['close'] - df['open'])) * 100
 
     df['direction'] = df.apply(lambda s: getDirection(s['open'],s['close']),axis=1)
-    df['pillar_score'] = df['pillar'].apply(lambda p: 1 if p >= 6 and p <= 15 else 0.5 if p >= 5 and p <= 15 else 0)
+    df['pillar_score'] = df['pillar'].apply(lambda p: 1 if p >= pillar_minimum_percentage and p <= pillar_maximum_percentage else 0.5 if p >= pillar_minimum_percentage - 1 and p <= pillar_maximum_percentage else 0)
     df['body_score'] = df['body'].apply(lambda p: 1 if p >= 70 else 0.5 if p >= 60 else 0)
     df['upper_shadow_score'] = df['upper_shadow'].apply(lambda p: 1 if p <= 30 and p >= 0 else 0)
     df['score'] = df['pillar_score'] + df['body_score'] + df['upper_shadow_score']
